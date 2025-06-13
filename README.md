@@ -13,6 +13,7 @@ Analysis of 2.48M units sold ($899.9M total sales) during 2020-2021 to identify:
 
 ## 📂 Repository Structure
 Adidas_Sales_Dashboard/
+
 ├── Data/ # Raw sales data
 │ ├── adidas_sales_2021.xlsx
 │ └── adidas_sales_2022.xlsx
@@ -50,9 +51,12 @@ West Gear outperformed others ($242.96M) with Foot Locker ($220.09M) as runner-u
 
 🛠️ Dashboard Features
 Page	Highlights	Preview
-Home	Executive KPIs • Navigation	https://Images/Home_Page.png
-Sales Analysis	Regional maps • Monthly trends • Retailer rankings	https://Images/Sales_Analysis.png
-Products	Category drill-down • Dynamic filtering • Image integration	https://Images/Products_Page.png
+Home	Executive KPIs • Navigation	https://Images/Home_Page.png .
+
+Sales Analysis	Regional maps • Monthly trends • Retailer rankings	https://Images/Sales_Analysis.png.
+
+Products	Category drill-down • Dynamic filtering • Image integration	https://Images/Products_Page.png.
+
 
 Advanced Functionality:
 
@@ -65,7 +69,6 @@ Month-over-Month (MoM) DAX calculations
 ⚙️ Technical Implementation
 Data Pipeline:
 
-flowchart LR
     A[Raw Excel Data] --> B[Power Query Cleaning]
     B --> C[DAX Measures]
     C --> D[Data Modeling]
