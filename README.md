@@ -52,18 +52,56 @@ pie showData
     "Men's Apparel" : 123.73
     "Women's Athletic Footwear" : 106.63
 ```
-3. Retailer Performance
-```mermaid
-barChart
-    title Top Performing Retailers
-    xAxis Retailer
-    yAxis Sales (Millions $)
-    series Sales
-    data West Gear 242.96, Foot Locker 220.09, Sports Direct 182.47
-````
+
 
 🛠️ Dashboard Features
 Page	Highlights	Preview
-Home	Executive KPIs • Navigation • Time filters	https://Images/Home_Page.png
-Sales Analysis	Regional maps • Monthly trends • Retailer rankings • Product comparisons	https://Images/Sales_Analysis.png
-Products	Category drill-down • Dynamic filtering • Image integration • MoM trends	https://Images/Products_Page.png
+
+Home	Executive KPIs • Navigation • Time filters	https://Images/Home_Page.png.
+
+Sales Analysis	Regional maps • Monthly trends • Retailer rankings • Product comparisons	https://Images/Sales_Analysis.png.
+
+Products	Category drill-down • Dynamic filtering • Image integration • MoM trends	https://Images/Products_Page.png.
+
+
+
+Advanced Functionality:
+
+🔄 Dynamic product image loading based on selection
+
+🔗 Cross-filtering between all visuals
+
+📈 Advanced DAX measures for MoM calculations
+
+📱 Responsive mobile design
+
+🗺️ Interactive geographic visualization
+
+⚙️ Technical Implementation
+Data Pipeline:
+```mermaid
+flowchart TD
+    A[Raw Excel Data] --> B[Power Query Processing]
+    B --> C[Data Cleaning & Transformation]
+    C --> D[DAX Measures Creation]
+    D --> E[Data Modeling]
+    E --> F[Interactive Dashboard]
+    F --> G[LaTeX Report Generation]
+````
+Key DAX Measures:
+
+// Month-over-Month Growth Calculation
+Units Sold MoM % = 
+VAR CurrentMonth = [Units Sold]
+VAR PreviousMonth = CALCULATE([Units Sold], PREVIOUSMONTH('Date'[Date]))
+RETURN 
+DIVIDE((CurrentMonth - PreviousMonth), PreviousMonth, 0)
+
+// Dynamic Product Image Loading
+Product Image = 
+VAR SelectedProduct = SELECTEDVALUE(Products[Product ID])
+RETURN
+CALCULATE(
+    VALUES(Products[Image URL]),
+    Products[Product ID] = SelectedProduct
+)
