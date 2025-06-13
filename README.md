@@ -17,8 +17,8 @@ Comprehensive analysis of **2.48M units sold** ($899.9M total sales) during 2020
 ```plaintext
 Adidas_Sales_Dashboard/
 ├── Data/                   # Raw sales datasets
-│   ├── adidas_sales_2020.xlsx
-│   └── adidas_sales_2021.xlsx
+│   ├── Adidas US Sales Datasets.xlsx
+│   └── Product.xlsx
 ├── Documentation/          # Project report and academic documentation
 │   ├── Power_BI_Project_Report.pdf
 │   ├── Report.tex          # LaTeX source file
