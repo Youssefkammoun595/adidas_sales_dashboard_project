@@ -108,33 +108,33 @@ CALCULATE(
 
 
 🚀 Usage Instructions
-Open Power BI File
+1. Open Power BI File
 Launch PowerBI_Files/Adidas_Dashboard.pbix
 
-Connect Data Sources
+2. Connect Data Sources
 Link to Excel files in /Data folder
 
-Explore Dashboard
+3. Explore Dashboard
 
 Use page navigation buttons (Home, Sales, Products)
 
 Apply filters:
 
-Time period slicer (2020-2021)
+        Time period slicer (2020-2021)
+        
+        Region selector
+        
+        Product category toggle
+        
+        Hover over visuals for detailed tooltips
 
-Region selector
+4. Generate Insights
 
-Product category toggle
-
-Hover over visuals for detailed tooltips
-
-Generate Insights
-
-Identify top-performing regions
-
-Compare retailer effectiveness
-
-Analyze seasonal trends
+        Identify top-performing regions
+        
+        Compare retailer effectiveness
+        
+        Analyze seasonal trends
 
 🔍 SEO Optimization
 #PowerBI #DataVisualization #Adidas #SalesDashboard #BusinessIntelligence #DataAnalytics #RetailAnalytics #DashboardDesign #DataScience #SportsAnalytics #DataEngineering #BusinessDashboard #DataDrivenDecisions
