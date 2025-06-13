@@ -50,7 +50,8 @@ Adidas_Sales_Dashboard/
 West Gear outperformed others ($242.96M) with Foot Locker ($220.09M) as runner-up
 
 🛠️ Dashboard Features
-Page	Highlights	Preview
+** Page	Highlights	Preview**
+
 Home	Executive KPIs • Navigation	https://Images/Home_Page.png .
 
 Sales Analysis	Regional maps • Monthly trends • Retailer rankings	https://Images/Sales_Analysis.png.
@@ -58,7 +59,7 @@ Sales Analysis	Regional maps • Monthly trends • Retailer rankings	https://Im
 Products	Category drill-down • Dynamic filtering • Image integration	https://Images/Products_Page.png.
 
 
-Advanced Functionality:
+** Advanced Functionality:**
 
 Dynamic product image loading
 
