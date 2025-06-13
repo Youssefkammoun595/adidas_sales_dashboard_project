@@ -105,3 +105,36 @@ CALCULATE(
     VALUES(Products[Image URL]),
     Products[Product ID] = SelectedProduct
 )
+
+
+🚀 Usage Instructions
+Open Power BI File
+Launch PowerBI_Files/Adidas_Dashboard.pbix
+
+Connect Data Sources
+Link to Excel files in /Data folder
+
+Explore Dashboard
+
+Use page navigation buttons (Home, Sales, Products)
+
+Apply filters:
+
+Time period slicer (2020-2021)
+
+Region selector
+
+Product category toggle
+
+Hover over visuals for detailed tooltips
+
+Generate Insights
+
+Identify top-performing regions
+
+Compare retailer effectiveness
+
+Analyze seasonal trends
+
+🔍 SEO Optimization
+#PowerBI #DataVisualization #Adidas #SalesDashboard #BusinessIntelligence #DataAnalytics #RetailAnalytics #DashboardDesign #DataScience #SportsAnalytics #DataEngineering #BusinessDashboard #DataDrivenDecisions
